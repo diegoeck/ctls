@@ -1,9 +1,0 @@
-function k = ctls(Phy,y,F)
-
-[n,m
-
-G=trace(F'*F)
-FF=@(g) abs(max(eig(inv(G)*F'*F-inv(g)*C'*C)));
-g=fminsearch(FF,1);
-[A,B]=eig(inv(G)*F'*F-inv(g)*C'*C);
-k1=-A(1:2,3)/A(3,3);
