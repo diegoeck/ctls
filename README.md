@@ -16,6 +16,10 @@ Please check the *examples* folder.
 
 #### Example
 
+Estimate parameters of a plane:
+
+z = 2 * x + 3 * y.   
+
 ```matlab
 % Generate TRUE POINTS
 x=randn(N,1);
@@ -39,4 +43,5 @@ kctls = ctls(Phi,zr,F);
 ## Contributors
 
 Diego Eckhard - diegoeck@ufrgs.br - @diegoeck
+
 Cristiane?
