@@ -39,6 +39,8 @@ F = [0.3*ones(N,1) 0.2*ones(N,1) 0.4*ones(N,1)];
 kctls = ctls(Phi,zr,F);
 ```
 
+![comparative](examples/example.jpg "Comparative")
+
 
 ## Contributors
 
